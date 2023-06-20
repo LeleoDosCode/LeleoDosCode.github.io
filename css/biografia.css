@@ -1,0 +1,42 @@
+@import url(style.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.center{
+    justify-content: center;
+    display: flex;
+}
+.principal{
+    margin-top: 30px;
+    display: flex;
+    
+}
+.pai{
+    padding: 10px;
+    width: 1000px;
+    height: 200px;
+    display: flex;
+}
+.pai img{
+    margin-right: 15px;
+    filter:drop-shadow(10px 10px 10px #B49251);
+}
+.text1{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+}
+.texto{
+    width: 1000px;
+    height: 430px;
+    border: solid 2px white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+.joca{
+    display: flex;
+    width: 100px;
+}
